@@ -9,6 +9,6 @@ The language people use when they interact with each other changes over the cour
 Will we see a systematic language change along the interaction of human users with a text-to-image model too? 
 
 
-Paper link: 
+Paper link: http://arxiv.org/abs/2311.12131
 
 ---
