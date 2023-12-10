@@ -10,7 +10,7 @@ Will we see a systematic language change along the interaction of human users wi
 
 Generating images with a Text-to-Image model often requires multiple trials, where human users iteratively update their prompt based on feedback, namely the output image. Taking inspiration from cognitive work on reference games and dialogue alignment, we analyze the dynamics of the user prompts along such iterations. We compile a dataset of iterative interactions of human users with Midjourney. 
 
-Paper link: http://arxiv.org/abs/2311.12131
+Paper link: https://aclanthology.org/2023.emnlp-main.253/
 
 ---
 
@@ -60,11 +60,21 @@ Citiation
 If you find this work useful, please cite our paper:
 
 ```
-@misc{donyehiya2023human,
-      title={Human Learning by Model Feedback: The Dynamics of Iterative Prompting with Midjourney}, 
-      author={Shachar Don-Yehiya and Leshem Choshen and Omri Abend},
-      year={2023},
-      eprint={2311.12131},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{don-yehiya-etal-2023-human,
+    title = "Human Learning by Model Feedback: The Dynamics of Iterative Prompting with Midjourney",
+    author = "Don-Yehiya, Shachar  and
+      Choshen, Leshem  and
+      Abend, Omri",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.253",
+    pages = "4146--4161",
+    abstract = "Generating images with a Text-to-Image model often requires multiple trials, where human users iteratively update their prompt based on feedback, namely the output image. Taking inspiration from cognitive work on reference games and dialogue alignment, this paper analyzes the dynamics of the user prompts along such iterations. We compile a dataset of iterative interactions of human users with Midjourney. Our analysis then reveals that prompts predictably converge toward specific traits along these iterations. We further study whether this convergence is due to human users, realizing they missed important details, or due to adaptation to the model{'}s {``}preferences{''}, producing better images for a specific language style. We show initial evidence that both possibilities are at play. The possibility that users adapt to the model{'}s preference raises concerns about reusing user data for further training. The prompts may be biased towards the preferences of a specific model, rather than align with human intentions and natural manner of expression.",
 }
+
