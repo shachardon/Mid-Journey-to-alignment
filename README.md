@@ -19,7 +19,7 @@ Data
 The dataset that was collected and used in this paper is available in the `data` folder.
 
 The data is in a csv format, divided into 9 files (threads_i.csv for i in range(0, 9, 20000)).
-It is also available as a Huggingface dataset [here][hf_data]
+It is also available as a Huggingface dataset [here 🤗][hf_data]
 
 [hf_data]: https://huggingface.co/datasets/shachardon/midjourney-threads "markdown huggingface_dataset"
 
